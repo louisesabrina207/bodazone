@@ -1,0 +1,41 @@
+{
+  "name": "bodazone-backend",
+  "version": "1.0.0",
+  "description": "E-commerce platform for motorbike spare parts - Backend API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecommerce",
+    "motorbike",
+    "spare-parts",
+    "bodazone"
+  ],
+  "author": "Louise Sabrina Murugi Ngonge",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.15.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "express-rate-limit": "^8.3.2",
+    "helmet": "^8.1.0",
+    "joi": "^17.11.0",
+    "jsonwebtoken": "^9.0.3",
+    "morgan": "^1.10.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.22.1",
+    "nodemailer": "^8.0.7",
+    "pdfkit": "^0.18.0",
+    "sequelize": "^6.37.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
